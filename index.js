@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use(express.json());
-app.get("/getmoderation", function(req, res) {
+app.get("/getanalytics", function(req, res) {
     res.json({})
 });
 
